@@ -11,7 +11,7 @@ directory = '/Users/brennanadams/Desktop/'
 project_title = 'video test project'
 
 # TODO change sub folder names here or add more sub folders here
-project_sub_folders = ['RAW ' + project_title + ' photos', 'project files', 'after effects', 'RAW VIDEO']
+project_sub_folders = ['RAW ' + project_title + ' photos', 'project files', 'after effects', 'RAW Video']
 
 
 #DO NOT CHANGE ANYTHING BELOW THIS LINE
