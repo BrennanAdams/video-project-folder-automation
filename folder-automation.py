@@ -2,13 +2,35 @@
 from ast import main
 import os
 from tabnanny import process_tokens
+import sys
+
+
+
+# total words in title
+num_words = len(sys.argv) #skip 1 because the first argument is file name
+folder_name = ''
+
+#print("Total arguments passed:", num_words)
+ 
+#print("\nArguments passed:", end = " ")
+for i in range(1, num_words):
+    #print(sys.argv[i], end = " ")
+    folder_name += str(sys.argv[i]) + " "
+    
+
+
+
+
+
+
+
 
 # TODO change this to where you want your folder to be located
 directory = '/Users/brennanadams/Desktop/'
 
 
 # TODO add your project folder name here
-project_title = 'video test project'
+project_title = str(folder_name)
 
 # TODO change sub folder names here or add more sub folders here
 project_sub_folders = ['RAW ' + project_title + ' photos', 'project files', 'after effects', 'RAW Video']
