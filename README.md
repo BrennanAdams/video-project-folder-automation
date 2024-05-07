@@ -27,10 +27,35 @@ Replace `"Project Name"` with the desired title for your project folder.
 
 ### Customization
 
-You can customize the folder structure and location by editing the script:
+Before running the script, you may need to customize the folder structure and location according to your preferences. Follow these steps to customize the script:
 
-- **Change Folder Location**: Modify the `directory` variable in the script to specify the desired location for the project folders.
-- **Edit Folder Structure**: Adjust the `project_sub_folders` list to customize the folder structure. You can add, remove, or rename subfolders to suit your workflow.
+1. **Change Folder Location**: Open the script (`video-project-folder-automation.py`) in a text editor and modify the `directory` variable to specify the desired location for the project folders. By default, the script creates folders on the desktop (`/Users/brennanadams/Desktop/`).
+
+    ```python
+    # TODO: Change this to where you want your folder to be located
+    directory = '/Users/brennanadams/Desktop/'
+    ```
+
+2. **Edit Folder Structure**: Adjust the `project_sub_folders` list to customize the folder structure. You can add, remove, or rename subfolders to suit your workflow.
+
+    ```python
+    # TODO: Change subfolder names here or add more subfolders here
+    project_sub_folders = [
+        '01_Assets',
+        '02_Editing_Files',
+        '02_Editing_Files/02_After_Effects',
+        '02_Editing_Files/01_Premiere_Pro',
+        '03_Raw_Footage',
+        '03_Raw_Footage/01_RAW_Video',
+        '03_Raw_Footage/02_RAW_Photos' + project_title,
+        '04_Draft_Renders',
+        '05_Deliverables',
+        '01_Assets/01_Footage',
+        '01_Assets/02_Audio',
+    ]
+    ```
+
+After customizing the script, proceed with the command line usage as described above.
 
 ## Contributing
 
