@@ -33,8 +33,20 @@ directory = '/Users/brennanadams/Desktop/'
 project_title = str(folder_name)
 
 # TODO change sub folder names here or add more sub folders here
-project_sub_folders = ['RAW ' + project_title + ' photos', 'project files', 'after effects', 'RAW Video']
-
+#project_sub_folders = ['RAW ' + project_title + ' photos', 'project files', 'after effects', 'RAW Video']
+project_sub_folders = [
+    '01_Assets',
+    '02_Editing_Files',
+    '02_Editing_Files/02_After_Effects',
+    '02_Editing_Files/01_Premiere_Pro',
+    '03_Raw_Footage',
+    '03_Raw_Footage/01_RAW_Video',
+    '03_Raw_Footage/02_RAW_Photos' + project_title,
+    '04_Draft_Renders',
+    '05_Deliverables',
+    '01_Assets/01_Footage',
+    '01_Assets/02_Audio',
+]
 
 #DO NOT CHANGE ANYTHING BELOW THIS LINE
 #_________________________________________________________________________________________________________#
